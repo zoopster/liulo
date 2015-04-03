@@ -1,4 +1,4 @@
-# Líu lo Web App
+# Líu lo app
 
 The Simplest Interactive Q&amp;A Opensource Platform At Events. This could be the beginning of a meaningful conversation.
 
@@ -43,7 +43,7 @@ Let your audience decide and vote for questions that interest them. Questions wi
 **Focused, Audience-driven Plenary Discussions.**
 Plenary discussions bring together the brightest minds across expertise areas for a cross-functional conversation. Yet, it is incredibly challenging to drive a well-balanced yet provoking discussion that addresses the audience’s interest, especially during the Q&A Session.
 
-Pigeonhole Live is designed to bring the focus back to Plenary Discussions. With the audience posing their questions on Pigeonhole, event owners can weed out the inappropriate questions and only allow those that add value to the discussion.
+Liu lo is designed to bring the focus back to Plenary Discussions. With the audience posing their questions on Liu lo, event owners can weed out the inappropriate questions and only allow those that add value to the discussion.
 
 ## Roadmap
 
