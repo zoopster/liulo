@@ -4,19 +4,22 @@ The Simplest Interactive Q&amp;A Opensource Platform At Events. This could be th
 
 ## How to use
 
-### Ask or vote
-To ask a question, simply go to www.liulo.io/at and enter a one-time passcode. Participants can also vote for questions submitted by other users. Questions will be sorted by popularity.
+#### Ask or vote
+To ask a question, simply go to **www.liulo.io/at** and enter a one-time passcode. Participants can also vote for questions submitted by other users. Questions will be sorted by popularity.
 
-### Allow, edit or block questions
+#### Allow, edit or block questions
 With three simple “Allow”, “Edit” and “Block” buttons, you can have complete control of your event by filtering your audience’s inputs before they are seen by the rest of the users.
 
-### Projector Panel
+#### Projector Panel
 Display the top 9 most voted questions submitted by your audience on the big screen. They will then see the questions automatically sort themselves in real-time as the votes change.
 
-### Complete anonymity
+#### Moderator Panel
+As the moderator, you can identify the questions that interest more people in the audience and address them on the spot. Tap “Active” to bring the question up onto the Projector Panel. When you’re done, simply tap “Answered” and the question will be removed.
+
+#### Complete anonymity
 All responses recorded and received are anonymous by default. This way, your audience can be empowered to ask questions that matter.
 
-### Social profiles
+#### Social profiles
 Users also have the option to sign in through Facebook, Twitter or LinkedIn to give their question an identity.
 
 ## Why we make it
