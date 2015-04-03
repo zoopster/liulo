@@ -24,7 +24,9 @@ Users also have the option to sign in through Facebook, Twitter or LinkedIn to g
 
 ## Why we make it
 
-We were inspired from Pigeonhole Live and we believe that open source software should be good as sex so we make it. At first time, we target on Vietnamese users, startup community and tech meetup event.
+We were inspired from *Pigeonhole Live* and we believe that open source software should be good as sex so we make it. 
+
+At first time, we target on Vietnamese users, startup community and tech meetup event.
 
 ### Q&A Sessions Done Right
 
@@ -42,6 +44,25 @@ Let your audience decide and vote for questions that interest them. Questions wi
 Plenary discussions bring together the brightest minds across expertise areas for a cross-functional conversation. Yet, it is incredibly challenging to drive a well-balanced yet provoking discussion that addresses the audience’s interest, especially during the Q&A Session.
 
 Pigeonhole Live is designed to bring the focus back to Plenary Discussions. With the audience posing their questions on Pigeonhole, event owners can weed out the inappropriate questions and only allow those that add value to the discussion.
+
+## Roadmap
+
+- [ ] Build stable API by using Beego
+- [ ] Build web app with public access for Tester
+- [ ] Guide for External Events
+- [ ] Moderator Panel for previewing
+- [ ] Mobile web app
+- [ ] Android app
+- [ ] iOS app
+- [ ] Support Poll
+- [ ] Custom Branding
+- [ ] Support survey
+- [ ] Integrate with TicketBox.vn
+- [ ] Export event data to Excel and PDF
+- [ ] Guides for Internal Events
+- [ ] Support multiple sessions Events
+- [ ] Support other messenger apps
+- [ ] Insights
 
 ## Who are we
 
