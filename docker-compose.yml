@@ -1,0 +1,21 @@
+web:
+  build: .
+  volumes:
+    - ".:/go/src/github.com/dwarvesf/liulo"
+  working_dir: /go/src/github.com/dwarvesf/liulo
+  ports:
+    - "6060:8080"
+  links:
+   - redis
+   - rethinkdb
+  # command: bee run
+
+redis:
+    image: redis:latest
+    ports:
+        - "6379:6379"
+
+rethinkdb:
+    image: rethinkdb:latest
+    ports:
+        - "8080:8080"
