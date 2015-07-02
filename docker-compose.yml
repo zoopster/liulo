@@ -1,3 +1,4 @@
+aa
 web:
   build: .
   volumes:
@@ -8,7 +9,6 @@ web:
   links:
    - redis
    - rethinkdb
-  # command: bee run
 
 redis:
     image: redis:latest
