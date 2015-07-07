@@ -24,24 +24,23 @@ func init() {
 				"POST:Post"),
 			beego.NSRouter("/:slug", &controllers.EventController{},
 				"GET:GetBySlug"),
-			beego.NSRouter("/:eventId",
-				&controllers.EventController{}, "GET:GetById"),
-		),
 
-		// Sessions
-		beego.NSNamespace("/events/:slug:string/sessions",
-			beego.NSRouter("/", &controllers.SessionController{},
-				"GET:GetAll;POST:Post"),
-			beego.NSRouter("/:sessionId",
-				&controllers.SessionController{},
-				"GET:GetById"),
-		),
+			// Sessions
+			beego.NSNamespace("/:slug/sessions",
+				beego.NSRouter("/", &controllers.SessionController{},
+					"GET:GetAll;POST:Post"),
+				beego.NSRouter("/:sessionId",
+					&controllers.SessionController{},
+					"GET:GetById"),
 
-		beego.NSNamespace("/events/:slug:string/sessions/:sessionId/questions",
-			beego.NSRouter("/", &controllers.QuestionController{},
-				"GET:GetAll;POST:Post"),
-			beego.NSRouter("/:questionId", &controllers.QuestionController{},
-				"GET:GetById"),
+				// Questions
+				beego.NSNamespace("/:sessionId/questions",
+					beego.NSRouter("/", &controllers.QuestionController{},
+						"GET:GetAll;POST:Post"),
+					beego.NSRouter("/:questionId", &controllers.QuestionController{},
+						"GET:GetById"),
+				),
+			),
 		),
 	)
 

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"log"
 	"os"
 	"time"
 
@@ -38,6 +37,7 @@ func InitDB() error {
 	switch migrate {
 	case "drop":
 		// TODO: Drop database and recreate all the table
+		beego.Warning("Something went wrong?")
 
 		// // Create table `Event`
 		// _, err = r.Db(dbName).TableCreate("event").RunWrite(session)
@@ -54,11 +54,12 @@ func InitDB() error {
 
 	case "alter":
 		// TODO: Run migration script
+		beego.Info("Prepare to run migration script")
 
 		break
 
 	default:
-		log.Println("Database need to be safe.")
+		beego.Info("Database needs to be safe.")
 	}
 
 	return nil
